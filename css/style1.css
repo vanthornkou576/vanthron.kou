@@ -52,7 +52,7 @@ a{
     width: 100%;
     background-color: rgb(58, 56, 55, 0.3);
     margin-right: 30%;
-    margin-top: -23px;
+    margin-top: -5px;
 }
 p{
     font-family: sans-serif;
@@ -60,7 +60,17 @@ p{
 .app{
     padding-top: 60px;
     padding-left: 40%;
-    
+}
+.mo img{
+    width: 20%;
+    padding: 20px;
+    margin-left: 10%;
+}
+.mo h2{
+    margin-left: 13%;
+}
+.po{
+    padding: 15px;
 }
 
 
