@@ -1,0 +1,30 @@
+body{
+    background: url(../images/vanthorn.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 40%;
+    color: white;
+}
+h1{
+    margin-left:20%;
+    color: rgb(0, 211, 35);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px; 
+    
+}
+ul li:hover{
+    background: pink;
+}
+a{
+    text-decoration: none;
+   
+}
+.men{
+    margin-right: 30%;
+    
+}

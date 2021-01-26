@@ -1,0 +1,21 @@
+body{
+    background: rgb(185, 174, 159);
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px; 
+}
+ul li:hover{
+    background:rgb(4, 238, 4);
+}
+a{
+    text-decoration: none;
+   
+}
+.men{
+
+    margin-right: 30%;
+}
