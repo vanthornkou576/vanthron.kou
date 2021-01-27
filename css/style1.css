@@ -149,7 +149,7 @@ p{
     text-align: center;
 }
 .Co{
-    /* margin-top: 5%; */
+    margin-top: 2%;
     justify-content: center;
     padding: 35px;
     display: flex;
@@ -172,4 +172,70 @@ p{
 .Co > .Vo > h1 {
     font-family: cursive;
      color: rgba(77, 21, 99, 0.863);
+}
+
+.roos > .qut {
+    width: 50%;
+    background:rgba(128, 128, 128, 0.541);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.roos > .lol {
+    width: 50%;
+    background:rgba(128, 128, 128, 0.534);
+    padding: 10px;
+}
+.roos{
+    padding: 15px;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+form{
+    padding: 10px;
+    
+  
+}
+input{
+    margin-top: 10px;
+}
+input[type="email"]{
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 2px;
+}
+input[type="text"]{
+    width: 48.99%;
+    font-size: 15px;
+    padding: 2px;
+}
+input[type="submit"]{
+    width: 49.65%;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background:teal;
+}
+input[type="reset"]{
+    width: 49.65%;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(146, 122, 146);
+
+}
+.cont {
+    flex-direction: column;
+}
+iframe{
+    width: 90%;
+    height: 90%;
+
 }
