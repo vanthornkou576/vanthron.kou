@@ -35,25 +35,27 @@ a{
 
 .bo h1{
     padding-left:28% ;
-    color: rgb(243, 242, 247); 
+    color: rgba(8, 201, 8, 0.931); 
     padding-top: 40px;
 }
 .bo h2{
-    padding-left:32% ;
-    color: rgb(243, 242, 247); 
+    padding-left:34% ;
+    color: rgba(147, 187, 2, 0.897); 
     padding-top: 40px;
 }
 .bo p{
     padding-top: 30px;
     padding-left: 30%;
     font-size: 20px;
+    color: rgb(255, 232, 232);
 }
 .men{
     width: 100%;
     background-color: rgb(58, 56, 55, 0.3);
-    margin-right: 30%;
     margin-top: -5px;
+    
 }
+
 p{
     font-family: sans-serif;
 }
@@ -61,16 +63,59 @@ p{
     padding-top: 60px;
     padding-left: 40%;
 }
-.mo img{
-    width: 20%;
-    padding: 20px;
-    margin-left: 10%;
-}
-.mo h2{
-    margin-left: 13%;
-}
 .po{
     padding: 15px;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.po > .mo {
+    width: 50%;
+    background:rgba(128, 128, 128, 0.678);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.po > .mo > img {
+    width: 45%;
+    height: 80%;
+    box-shadow: -10px 6px 234px -2px rgba(0,0,0,0.62);
+
+}
+.po > .mo > h1{
+    height: 10%;
+    width: 100%;
+    font-family: monospace;
+}
+.po > .mo > h2{
+    height: 10%;
+    width: 100%;
+    color: rgb(49, 34, 133);
+}
+.po > .no {
+    width: 50%;
+    background:rgba(128, 128, 128, 0.63);
+    padding: 10px;
+}
+.po > .no > h1{
+    text-align: center;
+    color: greenyellow;
+    margin: 5%;
+    
+}
+.po > .no > p{
+    margin: 5%;
+}
+.yoyo{
+    background: palevioletred;
+    
 }
 
-
+.app1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
