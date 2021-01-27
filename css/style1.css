@@ -11,7 +11,7 @@ body{
     color: white;
 }
 .container{
-    background-color: rgb(56, 50, 50, 0.4);
+    background-color: rgba(56, 50, 50, 0.733);
     height: 101vh;
 }
 ul li{
@@ -51,7 +51,7 @@ a{
 }
 .men{
     width: 100%;
-    background-color: rgb(58, 56, 55, 0.3);
+    background-color: rgba(85, 223, 233, 0.705);
     margin-top: -5px;
     
 }
@@ -72,7 +72,7 @@ p{
 }
 .po > .mo {
     width: 50%;
-    background:rgba(128, 128, 128, 0.678);
+    background:rgba(128, 128, 128, 0.541);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +97,7 @@ p{
 }
 .po > .no {
     width: 50%;
-    background:rgba(128, 128, 128, 0.63);
+    background:rgba(128, 128, 128, 0.534);
     padding: 10px;
 }
 .po > .no > h1{
