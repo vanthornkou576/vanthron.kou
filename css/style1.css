@@ -17,12 +17,15 @@ body{
 }
 .container > img{
     margin-left: 32%;
-   margin-top: 2%;
+    margin-top: 2%;
     
+}
+ul {
+    display: flex;
 }
 ul li{
     list-style: none;
-    display: inline-block;
+   
     margin: 10px; 
     color: rgb(245, 245, 241);
     padding: 20px;
@@ -307,8 +310,9 @@ iframe{
     .roos > .lol{
         width: 100%;
     }
-    .men{
-        
+    ul{
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
