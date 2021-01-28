@@ -7,13 +7,13 @@ body{
     
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 10%;
+    
     color: white;
     font-family: sans-serif;
 }
 .container{
     background-color: rgba(56, 50, 50, 0.883);
-    height: 101vh;
+   
 }
 .container > img{
     margin-left: 32%;
@@ -314,5 +314,10 @@ iframe{
         flex-direction: column;
         justify-content: center;
     }
-
+    .container{
+        flex-direction: column;
+    }
+    body {
+        background-position:0;
+    }
 }
