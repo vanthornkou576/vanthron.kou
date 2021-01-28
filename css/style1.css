@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-position: center 10%;
     color: white;
+    font-family: sans-serif;
 }
 .container{
     background-color: rgba(56, 50, 50, 0.883);
@@ -118,7 +119,10 @@ p{
     background: white;
     
 }
-
+.da{
+    margin-left: 60%;
+    background: rgb(92, 87, 78);
+}
 .app1{
     text-align: center;
     display: flex;
@@ -261,4 +265,50 @@ iframe{
     margin-left: 10%;
     margin-top:5%;
     
+}
+@media(max-width: 700px){
+    .Co{
+        flex-direction: column;
+
+    }
+    .Vo,.ho,.Lo,.go {
+        width: 100%;
+    }
+    .Co > .Vo{
+        width: 100%;
+    }
+    .Co > .Lo{
+        width: 100%;
+    }
+    .Co > .go > img{
+        width: 100%;
+    }
+    .Co > .ho > img{
+        width: 100%;
+    }
+    
+    .po{
+        flex-direction: column;
+        
+    }
+    .po > .mo{
+        width: 100%;
+    }
+    .po > .no{
+        width: 100%;
+    }
+    .roos{
+        flex-direction: column;
+
+    }
+    .roos > .qut{
+        width: 100%;
+    }
+    .roos > .lol{
+        width: 100%;
+    }
+    .men{
+        
+    }
+
 }
